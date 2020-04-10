@@ -1,0 +1,132 @@
+body {
+  background-color: #c8d0dc;
+  background-image: url(bg.jpg);
+  background-position: right;
+  color: #202121;
+  margin: 0;
+  padding: 20px 0px;
+  font-size: 16px;
+}
+
+header {
+  text-align: center;
+}
+
+header img.logo {
+  height: 80px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  padding: 4px;
+  background-image: linear-gradient(#f3f3f5,#d8d8d8,#f3f3f5);
+}
+
+li {
+  display: inline-block;
+  font-size: 14px;
+}
+
+li.active {
+  background-color: #35424e1f;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 300ms ease;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+div.main {
+  padding: 5px 20px;
+}
+
+.gallery {
+  padding-top: 25px;
+}
+
+div.main.gallery-body {
+  padding: 5px 0;
+}
+
+div.gallery > div {
+  display: inline-block;
+  background-color: #6d89a554;
+  border-radius: 15px;
+  width: 192px;
+  height: 280px;
+  padding: 10px;
+  margin: 10px;
+  transition: background-color 300ms ease;
+}
+
+div.gallery > div:hover {
+  background-color: #376ea554;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.main .about-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main .about-wrap div {
+  width: 400px;
+  padding: 20px;
+}
+
+.growing-text {
+  font-size: 52px;
+  justify-content: center;
+}
+
+.table-price {
+  width: 98%;
+  margin: auto;
+  min-height: 340px;
+  text-align: center;
+  background: #fff;
+  border-radius: 6px;
+  border: 1px gray solid;
+}
+
+.table-price td {
+  border: 1px gray solid;
+  padding: 5px;
+}
+
+.table-price td:first-child {
+  text-align: left;
+  padding-left: 20px;
+}
